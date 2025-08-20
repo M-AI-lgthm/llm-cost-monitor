@@ -70,7 +70,3 @@ graph TD
     O --> P[Reset session_state.usage_log];
     P --> Q[Restart App (Rerun)];
     Q --> B;
-    N -->|Yes| O[Delete usage_log.json file];
-    O --> P[Reset session_state.usage_log];
-    P --> Q[Restart App (Rerun)];
-    Q --> B;
