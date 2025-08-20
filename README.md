@@ -65,7 +65,7 @@ graph TD
     K --> L[Save session_state.usage_log to usage_log.json];
     L --> M[Refresh Dashboard with New Data];
     J --> M;
-    M --> N{User Clicks "Clear History"?};
+    M --> N{User Clicks "Clear History?};
     N -->|Yes| O[Delete usage_log.json file];
     O --> P[Reset session_state.usage_log];
     P --> Q[Restart App (Rerun)];
