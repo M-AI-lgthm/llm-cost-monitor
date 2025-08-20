@@ -4,7 +4,7 @@
 
 ### A Dashboard for Tracking AI Development Expenses
 
-Owner : Mary P
+Owner : M-AI-lgthm
 
 ## The Problem We're Solving
 Problem: Building with large language models (LLMs) can be unpredictable. When using different APIs and frameworks, it's hard to centralize and track costs, leading to unexpected bills.
