@@ -4,7 +4,7 @@
 
 ### A Dashboard for Tracking AI Development Expenses
 
-Your Name: [Mary P]
+Owner : Mary P
 
 ## The Problem We're Solving
 Problem: Building with large language models (LLMs) can be unpredictable. When using different APIs and frameworks, it's hard to centralize and track costs, leading to unexpected bills.
@@ -56,7 +56,7 @@ graph TD
     B -->|No| D[Initialize empty session_state.usage_log];
     C --> E[Display UI with Dashboard];
     D --> E;
-    E --> F[User Clicks "Run & Get Cost" Button];
+    E --> F[User Clicks Run & Get Cost Button];
     F --> G[Make API Call with LiteLLM];
     G --> H{Call Successful?};
     H -->|Yes| I[Extract Cost & Tokens from Response];
