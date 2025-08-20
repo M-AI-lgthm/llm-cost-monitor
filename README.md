@@ -49,6 +49,7 @@ Benefits: This app saves time, prevents surprise bills, and provides a centraliz
 
 Final Thoughts: This simple application demonstrates the power of using a standardized library like LiteLLM to build robust, multi-provider solutions for managing AI costs.
 
+```mermaid
 graph TD
     A[Start App / User Opens Browser] --> B{Is usage_log.json file present?};
     B -->|Yes| C[Load data from usage_log.json into session_state];
@@ -65,6 +66,10 @@ graph TD
     L --> M[Refresh Dashboard with New Data];
     J --> M;
     M --> N{User Clicks Clear History?};
+    N -->|Yes| O[Delete usage_log.json file];
+    O --> P[Reset session_state.usage_log];
+    P --> Q[Restart App (Rerun)];
+    Q --> B;
     N -->|Yes| O[Delete usage_log.json file];
     O --> P[Reset session_state.usage_log];
     P --> Q[Restart App (Rerun)];
