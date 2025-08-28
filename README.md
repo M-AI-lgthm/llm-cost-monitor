@@ -53,6 +53,16 @@ Benefits: This app saves time, prevents surprise bills, and provides a centraliz
 
 Final Thoughts: This simple application demonstrates the power of using a standardized library like LiteLLM to build robust, multi-provider solutions for managing AI costs.
 
+## LLM Cost Monitor Dashboard
+This tool features automatic API response parsing with pandas-powered data processing for aggregating usage metrics, performing cost analysis calculations, and generating statistical insights across different LLM providers. The system uses pandas DataFrames for efficient data manipulation and filtering, enabling real-time visualization of token usage, cost per model trends, and comparative analysis without manually accessing individual provider consoles. This is built for the ML/AI development community.
+Tech Stack: Python, Streamlit, LiteLLM, Pandas, JSON Storage
+
+### Key additions about pandas:
+Data Processing: pandas for aggregating usage metrics
+Analysis: Cost analysis calculations and statistical insights
+Data Manipulation: Efficient filtering and trend analysis using DataFrames
+Comparative Analysis: Cross-provider cost comparison
+
 ```mermaid
 graph TD
     A[Start App / User Opens Browser] --> B{Is usage_log.json file present?};
@@ -74,13 +84,3 @@ graph TD
     O --> P[Reset session_state.usage_log];
     P --> Q[Restart App (Rerun)];
     Q --> B
-
-## LLM Cost Monitor Dashboard
-This tool features automatic API response parsing with pandas-powered data processing for aggregating usage metrics, performing cost analysis calculations, and generating statistical insights across different LLM providers. The system uses pandas DataFrames for efficient data manipulation and filtering, enabling real-time visualization of token usage, cost per model trends, and comparative analysis without manually accessing individual provider consoles. This is built for the ML/AI development community.
-Tech Stack: Python, Streamlit, LiteLLM, Pandas, JSON Storage
-### Key additions about pandas:
-
-Data Processing: pandas for aggregating usage metrics
-Analysis: Cost analysis calculations and statistical insights
-Data Manipulation: Efficient filtering and trend analysis using DataFrames
-Comparative Analysis: Cross-provider cost comparison
