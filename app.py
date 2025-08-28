@@ -173,7 +173,7 @@ with open('app.py', 'w') as f:
 
 # Step 3: Authenticate ngrok
 # Replace 'YOUR_NGROK_AUTHTOKEN' with your actual token from ngrok.com
-!ngrok authtoken 31VLY1GLH4Qf0f3CoWmRLvx57ej_2C93Sd1YgD9n8ZKmbHoKy
+!ngrok authtoken NGROK_API_KEY
 
 # Step 4: Run the Streamlit app and create the ngrok tunnel
 def run_streamlit():
