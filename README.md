@@ -4,7 +4,11 @@
 
 ### A Dashboard for Tracking AI Development Expenses
 
-Owner : M-AI-lgthm
+Owner : Mary-AI-lgthm
+
+<img width="1808" height="908" alt="image" src="https://github.com/user-attachments/assets/b7ce7f81-5fbf-4712-8455-53bca0b316d6" />
+<img width="608" height="553" alt="image" src="https://github.com/user-attachments/assets/dfa2449f-3cb5-457a-8e42-ec5a79504baf" />
+<img width="1812" height="592" alt="image" src="https://github.com/user-attachments/assets/c55ada02-7e31-4a1a-a9dd-5f323cab1062" /> <img width="1221" height="754" alt="image" src="https://github.com/user-attachments/assets/79a201c0-a898-4fae-aa64-1cef410291c2" />
 
 ## The Problem We're Solving
 Problem: Building with large language models (LLMs) can be unpredictable. When using different APIs and frameworks, it's hard to centralize and track costs, leading to unexpected bills.
