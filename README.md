@@ -58,10 +58,10 @@ This tool features automatic API response parsing with pandas-powered data proce
 Tech Stack: Python, Streamlit, LiteLLM, Pandas, JSON Storage
 
 ### Key additions about pandas:
-Data Processing: pandas for aggregating usage metrics
-Analysis: Cost analysis calculations and statistical insights
-Data Manipulation: Efficient filtering and trend analysis using DataFrames
-Comparative Analysis: Cross-provider cost comparison
+- Data Processing: pandas for aggregating usage metrics
+- Analysis: Cost analysis calculations and statistical insights
+- Data Manipulation: Efficient filtering and trend analysis using DataFrames
+- Comparative Analysis: Cross-provider cost comparison
 
 ```mermaid
 graph TD
